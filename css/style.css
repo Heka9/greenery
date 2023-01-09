@@ -731,6 +731,14 @@ body {
   height: 100%;
 }
 
+.main-block__slide {
+  pointer-events: none;
+}
+
+.main-block__slide.swiper-slide-active {
+  pointer-events: all;
+}
+
 .main-block__image-ibg {
   position: static;
 }
